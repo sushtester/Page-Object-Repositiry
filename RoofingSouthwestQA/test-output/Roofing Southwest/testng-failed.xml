@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Roofing Southwest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Sanity on roofing(failed)">
+    <classes>
+      <class name="com.rsw.qa.testcases.HomePageTest">
+        <methods>
+          <include name="verifyInspectionTabClick"/>
+          <include name="setUP"/>
+        </methods>
+      </class> <!-- com.rsw.qa.testcases.HomePageTest -->
+    </classes>
+  </test> <!-- Sanity on roofing(failed) -->
+</suite> <!-- Failed suite [Roofing Southwest] -->
